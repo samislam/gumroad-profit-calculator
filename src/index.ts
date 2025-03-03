@@ -72,7 +72,7 @@ switch (payoutMethod) {
 
     fixedCutForProcessor = toNumber(
       await input({
-        message: 'Enter the fixed cut of Paypal:',
+        message: 'Enter the fixed cut of the processor:',
         validate: isNumericString,
         default: '0.30',
       })
@@ -84,10 +84,12 @@ const gumroadShare = income * percentOfGumroad + fixedCutForGumroad
 const processorShare = income * percentOfProcessor + fixedCutForProcessor
 const profit = income - (gumroadShare + processorShare)
 
+console.log({ percentOfGumroad, percentOfProcessor })
+
 console.table({
   income: income.toFixed(1) + '$',
-  gumroadShare: `${(gumroadShare * 100).toFixed(1)}$`,
-  processorShare: `${(processorShare * 100).toFixed(1)}$`,
+  gumroadShare: `${gumroadShare.toFixed(1)}$`,
+  processorShare: `${processorShare.toFixed(1)}$`,
   profit: profit.toFixed(1) + '$',
 })
 
