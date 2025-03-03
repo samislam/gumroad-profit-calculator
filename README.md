@@ -6,13 +6,13 @@ a small CLI application that calculates the profits of a Gumroad product.
 
 # Installation
 
-Executables are available for Linux systems, if you're on windows or Mac OSx, you have to run the project yourself using (bun)[https://bun.sh/], install bun then run the application using `bun start`.
+Executables are available for Linux systems, if you're on windows or Mac OSx, you have to run the project yourself using [bun](https://bun.sh/), install bun then run the application using `bun start`.
 
 If you're on Linux:
 ### 1 Download
-| OS        | Download |
-| --------- | -------- |
-| Linux x64 |          |
+| OS        | Download                                                                                                             |
+| --------- | -------------------------------------------------------------------------------------------------------------------- |
+| Linux x64 | [Download](https://github.com/samislam/gumroad-profit-calculator/releases/download/v1.0.0/gumroad-profit-calculator) |
 ### 2 Give it execution permissions
 ```sh
 $ sudo mv ./gumroad-profit-calculator /bin
