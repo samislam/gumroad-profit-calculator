@@ -1,0 +1,22 @@
+{
+  "name": "gumroad-profit-calculator",
+  "module": "index.ts",
+  "type": "module",
+  "prettier": "@samislam/prettier-config",
+  "scripts": {
+    "start": "bun ./src/index.ts",
+    "compile": "bun build --compile --target=bun-linux-x64 ./src/index.ts --outfile ./build/gumroad-profit-calculator"
+  },
+  "devDependencies": {
+    "@samislam/prettier-config": "^1.1.1",
+    "@types/bun": "latest",
+    "@types/lodash": "^4.17.16"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "lodash": "^4.17.21"
+  }
+}
