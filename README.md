@@ -12,7 +12,7 @@ If you're on Linux:
 ### 1 Download
 | OS        | Download                                                                                                             |
 | --------- | -------------------------------------------------------------------------------------------------------------------- |
-| Linux x64 | [Download](https://github.com/samislam/gumroad-profit-calculator/releases/download/v1.1.0/gumroad-profit-calculator) |
+| Linux x64 | [Download](https://github.com/samislam/gumroad-profit-calculator/releases/download/v1.1.1/gumroad-profit-calculator) |
 ### 2 Give it execution permissions
 ```sh
 $ sudo mv ./gumroad-profit-calculator /bin
