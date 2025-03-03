@@ -84,8 +84,6 @@ const gumroadShare = income * percentOfGumroad + fixedCutForGumroad
 const processorShare = income * percentOfProcessor + fixedCutForProcessor
 const profit = income - (gumroadShare + processorShare)
 
-console.log({ percentOfGumroad, percentOfProcessor })
-
 console.table({
   income: income.toFixed(1) + '$',
   gumroadShare: `${gumroadShare.toFixed(1)}$`,
